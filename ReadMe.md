@@ -26,8 +26,8 @@ Follow these steps to set up and run the Task Tracker CLI:
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your-username/task-tracker-cli.git
-   cd task-tracker-cli
+   git clone https://github.com/ichigo-k/task_manager.git
+   cd task_manager
    ```
 
 2. **Create a Virtual Environment**
