@@ -26,7 +26,7 @@ class Task(Document):
         logo = status_icons.get(self.status)
         time_ago = humanize.naturaltime(datetime.datetime.now() - self.createdAt)
 
-        return f"{logo}  [Task ID: {self.id}]  {self.description}\n   Status: {self.status.upper()}  |   Created: {time_ago}  \n"
+        return f"{logo}  [Task ID: {self.id}]  {self.description}\n   Status: {self.status.upper()}  |   Created: {time_ago} ago \n"
 
 
 
