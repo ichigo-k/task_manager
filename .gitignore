@@ -1,0 +1,4 @@
+.env
+.venv
+.idea
+Task_Manager.egg-info
